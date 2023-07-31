@@ -7,7 +7,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php [L]
 
 # Nezukoo - Allow access to index.html
-<Files "index.html">
+<Files "index.html,sitemap.xml">
   Order allow,deny
   Allow from all
   Satisfy any
