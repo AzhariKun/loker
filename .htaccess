@@ -1,15 +1,5 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . index.php [L]
-
-# Nezukoo - Allow access to index.html
 <Files "index.html,sitemap.xml,index.php">
   Order allow,deny
   Allow from all
   Satisfy any
 </Files>
-</IfModule>
