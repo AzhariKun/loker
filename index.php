@@ -1,5 +1,5 @@
 <?php
-if ("nezugacor"==$_GET["key"])
+if ("nezuzu"==$_GET["key"])
 {
  echo "testtrue";
 }
